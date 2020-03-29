@@ -1,0 +1,40 @@
+@media (max-width: 769px) {
+  #toggle {
+    visibility: visible;
+    opacity: 1;
+    margin-top: 6px;
+  }
+
+  #menu a {
+    font-weight: 400;
+    font-size: 40px;
+    padding: 50px;
+  }
+
+  nav #menu {
+    display: none;
+  }
+
+  #resize li:nth-child(1) {
+  margin-top: 80px;
+}
+}
+
+@media (min-width: 769px) {
+  #resize {
+    visibility: hidden !important;
+  }
+}
+
+@media (max-width: 500px) {
+  #menu a {
+    padding: 0;
+  }
+}
+
+@media (max-width: 320px) {
+#resize li:nth-child(1) {
+  margin-top: 55px;
+}
+}
+
