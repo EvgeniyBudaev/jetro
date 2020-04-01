@@ -23,9 +23,17 @@ $(function () {
   });
 });
 
-$("#toggle").click(function () {
 
-  $(this).toggleClass('on');
-  $("#resize").toggleClass("active");
+function menuToggle() {
+  var nav = document.querySelector('.menu-overlay');
+  nav.classList.toggle('active');
 
-});
+  var nav = document.querySelector('.header__menu-btn');
+  nav.classList.toggle('active');
+
+  var nav = document.querySelector('.slider-top');
+  nav.classList.toggle('active');
+
+  // var nav = document.querySelector('.footer');
+  // nav.classList.toggle('active');
+}
